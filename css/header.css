@@ -1,0 +1,75 @@
+@media only screen and (max-width: 668px) {
+    nav .brand-logo {
+        margin-left: unset;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 477px) {
+    nav .brand-logo {
+        margin-left: unset;
+        font-size: 18px;
+    }
+}
+.header-title{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    color:rgb(230, 227, 227);
+}
+.header {
+    border: 2px solid rgb(230, 227, 227);
+    background: #212529;
+}
+
+/* Reset Select */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: rgb(208, 206, 206);
+    background-image: none;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 2.75em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+  }
+  select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #2c3e50;
+    cursor: pointer;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: rgb(172, 171, 171);
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #FFF842;
+  }
+  

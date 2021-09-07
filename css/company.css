@@ -1,0 +1,40 @@
+.company{
+    background-color: #212529;
+    padding: 1rem 5rem;
+    margin: auto;
+    /* box-shadow: rgba(243, 156, 18, 0.6) 5px 5px, rgba(243, 156, 18, 0.4) 10px 10px, rgba(243, 156, 18, 0.2) 15px 15px; */
+}
+.overview {
+    color:rgb(230, 227, 227);
+    font-size:x-large;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 1.5rem;
+    width: 90%;
+}
+ .tableOverview td{
+   padding:0.5rem;
+   margin:1rem;
+   width: 100%;
+   border:2px solid white
+ }
+ .tableOverview td:nth-child(odd) {
+       background-color: #13161d;
+ }
+ .tableOverview td:nth-child(even) {
+       background-color: #3e444e;
+ }
+ .tableOverview tr:hover {
+    background-color: #464A52;
+    box-shadow: 0 6px 6px -6px #0E1119;
+ }
+ .tableOverview td:hover {
+   background-color: #92d4f0;
+   color: #403E10;
+   font-weight: bold;
+   transform: translate2d(2px, -2px);
+   transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+   transition-timing-function: line;
+ }
